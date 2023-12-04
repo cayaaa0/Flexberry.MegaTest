@@ -29,7 +29,12 @@ namespace IIS.Mega_test
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ПаркоматE", new string[0])]
-    [View("ПаркоматL", new string[0])]
+    [View("ПаркоматL", new string[] {
+            "ID2 as \'ID\'",
+            "ВреОпл as \'Время оплаты\'",
+            "СвМеста as \'Свободные места\'",
+            "СтатОпл as \'Статус оплаты\'",
+            "СтоимПарк as \'Стоимость парковки\'"})]
     public class Паркомат : ICSSoft.STORMNET.DataObject
     {
         

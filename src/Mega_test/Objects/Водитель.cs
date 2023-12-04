@@ -28,7 +28,9 @@ namespace IIS.Mega_test
     // *** End programmer edit section *** (Водитель CustomAttributes)
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
-    [View("ВодительE", new string[0])]
+    [View("ВодительE", new string[] {
+            "Карта as \'Номер карты\'",
+            "Тел as \'Номер телефона\'"})]
     [View("ВодительL", new string[0])]
     public class Водитель : ICSSoft.STORMNET.DataObject
     {

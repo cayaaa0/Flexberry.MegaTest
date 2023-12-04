@@ -31,7 +31,20 @@
     {
       "name": "ВодительE",
       "modelName": "i-i-s-mega-test-водитель",
-      "attrs": [],
+      "attrs": [
+        {
+          "name": "карта",
+          "caption": "Номер карты",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "тел",
+          "caption": "Номер телефона",
+          "hidden": false,
+          "index": 1
+        }
+      ],
       "belongsTo": [],
       "hasMany": []
     },

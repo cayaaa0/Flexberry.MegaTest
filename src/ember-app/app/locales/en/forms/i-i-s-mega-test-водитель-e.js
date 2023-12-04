@@ -1,3 +1,5 @@
 export default {
-  caption: 'Водитель'
+  caption: 'Водитель',
+  'карта-caption': 'Номер карты',
+  'тел-caption': 'Номер телефона'
 };

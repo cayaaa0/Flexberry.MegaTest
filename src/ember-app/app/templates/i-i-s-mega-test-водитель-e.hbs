@@ -24,5 +24,24 @@
       {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
     </div>
   </div>
-
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.карта
+      class=(if (v-get validationModel "карта" "isInvalid") "error")
+      label=(t "forms.i-i-s-mega-test-водитель-e.карта-caption")
+      data-test-i-i-s-mega-test-водитель-e-карта=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "карта" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.тел
+      class=(if (v-get validationModel "тел" "isInvalid") "error")
+      label=(t "forms.i-i-s-mega-test-водитель-e.тел-caption")
+      data-test-i-i-s-mega-test-водитель-e-тел=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "тел" "message")}}
+  </div>
 </form>

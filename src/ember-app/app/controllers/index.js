@@ -22,31 +22,31 @@ export default Controller.extend({
             link: 'i-i-s-mega-test-кардр-l',
             caption: i18n.t('forms.application.sitemap.mega-test.i-i-s-mega-test-кардр-l.caption'),
             title: i18n.t('forms.application.sitemap.mega-test.i-i-s-mega-test-кардр-l.title'),
-            icon: 'paperclip',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-mega-test-водитель-l',
             caption: i18n.t('forms.application.sitemap.mega-test.i-i-s-mega-test-водитель-l.caption'),
             title: i18n.t('forms.application.sitemap.mega-test.i-i-s-mega-test-водитель-l.title'),
-            icon: 'suitcase',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-mega-test-авто-l',
             caption: i18n.t('forms.application.sitemap.mega-test.i-i-s-mega-test-авто-l.caption'),
             title: i18n.t('forms.application.sitemap.mega-test.i-i-s-mega-test-авто-l.title'),
-            icon: 'chart line',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-mega-test-билет-l',
             caption: i18n.t('forms.application.sitemap.mega-test.i-i-s-mega-test-билет-l.caption'),
             title: i18n.t('forms.application.sitemap.mega-test.i-i-s-mega-test-билет-l.title'),
-            icon: 'folder open',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-mega-test-паркомат-l',
             caption: i18n.t('forms.application.sitemap.mega-test.i-i-s-mega-test-паркомат-l.caption'),
             title: i18n.t('forms.application.sitemap.mega-test.i-i-s-mega-test-паркомат-l.title'),
-            icon: 'tags',
+            icon: 'phone',
             children: null
           }]
         }

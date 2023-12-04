@@ -26,7 +26,8 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ВодительE', 'i-i-s-mega-test-водитель', {
-    
+    карта: attr('Номер карты', { index: 0 }),
+    тел: attr('Номер телефона', { index: 1 })
   });
 
   modelClass.defineProjection('ВодительL', 'i-i-s-mega-test-водитель', {

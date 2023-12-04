@@ -65,7 +65,38 @@
     {
       "name": "ПаркоматL",
       "modelName": "i-i-s-mega-test-паркомат",
-      "attrs": [],
+      "attrs": [
+        {
+          "name": "iD2",
+          "caption": "ID",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "вреОпл",
+          "caption": "Время оплаты",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "свМеста",
+          "caption": "Свободные места",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "статОпл",
+          "caption": "Статус оплаты",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "стоимПарк",
+          "caption": "Стоимость парковки",
+          "hidden": false,
+          "index": 4
+        }
+      ],
       "belongsTo": [],
       "hasMany": []
     }

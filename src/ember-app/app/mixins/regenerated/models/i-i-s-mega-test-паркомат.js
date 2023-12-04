@@ -55,6 +55,10 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('ПаркоматL', 'i-i-s-mega-test-паркомат', {
-    
+    iD2: attr('ID', { index: 0 }),
+    вреОпл: attr('Время оплаты', { index: 1 }),
+    свМеста: attr('Свободные места', { index: 2 }),
+    статОпл: attr('Статус оплаты', { index: 3 }),
+    стоимПарк: attr('Стоимость парковки', { index: 4 })
   });
 };
