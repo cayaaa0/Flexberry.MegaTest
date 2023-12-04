@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-mega-test-водитель-e",
+  "editForm": "i-i-s-mega-test-водитель-e",
+  "external": false,
+  "caption": "Водитель",
+  "name": "IISMega_testВодительL",
+  "className": "ВодительL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mega-test-водитель",
+      "modelProjection": "ВодительL"
+    }
+  ]
+}

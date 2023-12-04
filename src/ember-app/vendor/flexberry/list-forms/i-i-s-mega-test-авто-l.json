@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-mega-test-авто-e",
+  "editForm": "i-i-s-mega-test-авто-e",
+  "external": false,
+  "caption": "Авто",
+  "name": "IISMega_testАвтоL",
+  "className": "АвтоL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mega-test-авто",
+      "modelProjection": "АвтоL"
+    }
+  ]
+}

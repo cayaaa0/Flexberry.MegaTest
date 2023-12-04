@@ -1,0 +1,134 @@
+﻿{
+  "name": "IISMega_testАвто",
+  "modelName": "i-i-s-mega-test-авто",
+  "className": "Авто",
+  "nameSpace": "IIS.Mega_test",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "водитель",
+      "relatedTo": "i-i-s-mega-test-водитель",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "АвтоE",
+      "modelName": "i-i-s-mega-test-авто",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Тел",
+          "lookupValueField": "тел",
+          "relationName": "Водитель",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "тел",
+              "caption": "Тел",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Водитель",
+          "name": "водитель",
+          "relatedTo": "i-i-s-mega-test-водитель",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "АвтоL",
+      "modelName": "i-i-s-mega-test-авто",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Водитель",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "тел",
+              "caption": "Тел",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Тел",
+          "name": "водитель",
+          "relatedTo": "i-i-s-mega-test-водитель",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "АвтомобильE",
+      "modelName": "i-i-s-mega-test-авто",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "АвтомобильL",
+      "modelName": "i-i-s-mega-test-авто",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

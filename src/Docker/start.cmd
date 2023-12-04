@@ -1,0 +1,1 @@
+docker-compose -p mega_test up -d

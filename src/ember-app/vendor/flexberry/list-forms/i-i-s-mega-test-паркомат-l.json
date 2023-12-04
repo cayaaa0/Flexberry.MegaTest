@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-mega-test-паркомат-e",
+  "editForm": "i-i-s-mega-test-паркомат-e",
+  "external": false,
+  "caption": "Паркомат",
+  "name": "IISMega_testПаркоматL",
+  "className": "ПаркоматL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mega-test-паркомат",
+      "modelProjection": "ПаркоматL"
+    }
+  ]
+}

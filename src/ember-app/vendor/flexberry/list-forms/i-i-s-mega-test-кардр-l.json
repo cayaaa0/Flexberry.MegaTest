@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-mega-test-кардр-e",
+  "editForm": "i-i-s-mega-test-кардр-e",
+  "external": false,
+  "caption": "Кардр",
+  "name": "IISMega_testКардрL",
+  "className": "КардрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mega-test-кардр",
+      "modelProjection": "КардрL"
+    }
+  ]
+}

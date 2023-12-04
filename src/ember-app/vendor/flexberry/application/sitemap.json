@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Mega_test",
+  "applicationTitle": "Mega_test",
+  "items": [
+    {
+      "link": null,
+      "menuName": "mega-test",
+      "caption": "Mega_test",
+      "title": "Mega_test",
+      "children": [
+        {
+          "link": "i-i-s-mega-test-кардр-l",
+          "menuName": null,
+          "caption": "Кардр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-mega-test-водитель-l",
+          "menuName": null,
+          "caption": "Водитель",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-mega-test-авто-l",
+          "menuName": null,
+          "caption": "Авто",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-mega-test-билет-l",
+          "menuName": null,
+          "caption": "Билет",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-mega-test-паркомат-l",
+          "menuName": null,
+          "caption": "Паркомат",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

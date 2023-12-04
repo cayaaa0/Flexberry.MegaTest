@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Билет",
+  "name": "IISMega_testБилетE",
+  "className": "БилетE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mega-test-билет",
+      "modelProjection": "БилетE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-mega-test-билет-e",
+  "editForm": "i-i-s-mega-test-билет-e",
+  "external": false,
+  "caption": "Билет",
+  "name": "IISMega_testБилетL",
+  "className": "БилетL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mega-test-билет",
+      "modelProjection": "БилетL"
+    }
+  ]
+}
