@@ -28,7 +28,12 @@ namespace IIS.Mega_test
     // *** End programmer edit section *** (Билет CustomAttributes)
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
-    [View("БилетE", new string[0])]
+    [View("БилетE", new string[] {
+            "ВреПеч as \'Время печати\'",
+            "ВреОконч as \'Окончание\'",
+            "Ном as \'Номер\'",
+            "Водитель as \'Водитель\'",
+            "Паркомат as \'Паркомат\'"})]
     [View("БилетL", new string[0])]
     public class Билет : ICSSoft.STORMNET.DataObject
     {

@@ -89,7 +89,7 @@
               "index": 1
             }
           ],
-          "index": -1,
+          "index": 2,
           "type": "default",
           "caption": "Стат опл",
           "name": "паркомат",
@@ -110,7 +110,22 @@
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Паркомат",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 1,
+          "type": "default",
+          "caption": "Паркомат",
+          "name": "паркомат",
+          "relatedTo": "i-i-s-mega-test-паркомат",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     },
     {

@@ -1,5 +1,22 @@
 ﻿{
-  "propertyLookup": [],
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Водитель",
+      "projection": "ВодительL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Паркомат",
+      "projection": "ПаркоматL",
+      "detailModelName": null
+    }
+  ],
   "external": false,
   "caption": "Билет",
   "name": "IISMega_testБилетE",

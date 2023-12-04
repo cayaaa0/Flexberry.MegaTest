@@ -37,9 +37,11 @@ namespace IIS.Mega_test
     [MasterViewDefineAttribute("КардрE", "Паркомат", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "СтатОпл")]
     [View("КардрL", new string[] {
             "ID as \'ID\'",
-            "Паркомат.СтатОпл as \'Стат опл\'"})]
+            "Паркомат.СтатОпл as \'Стат опл\'",
+            "Паркомат as \'Паркомат\'"})]
     [View("КардридерE", new string[] {
-            "ID as \'ID\'"})]
+            "ID as \'ID\'",
+            "Паркомат as \'Паркомат\'"})]
     [View("КардридерL", new string[] {
             "ID as \'ID\'"})]
     public class Кардр : ICSSoft.STORMNET.DataObject

@@ -37,7 +37,8 @@ namespace IIS.Mega_test
     [MasterViewDefineAttribute("АвтоE", "Водитель", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Тел")]
     [View("АвтоL", new string[] {
             "Номер as \'Номер\'",
-            "Водитель.Тел as \'Тел\'"})]
+            "Водитель.Тел as \'Тел\'",
+            "Водитель as \'Водитель\'"})]
     [View("АвтомобильE", new string[] {
             "Номер as \'Номер\'"})]
     [View("АвтомобильL", new string[] {

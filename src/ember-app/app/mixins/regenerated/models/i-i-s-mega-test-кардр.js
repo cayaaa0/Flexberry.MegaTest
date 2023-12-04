@@ -38,11 +38,14 @@ export let defineProjections = function (modelClass) {
     iD: attr('ID', { index: 0 }),
     паркомат: belongsTo('i-i-s-mega-test-паркомат', 'Стат опл', {
       статОпл: attr('Стат опл', { index: 1 })
-    }, { index: -1, hidden: true })
+    }, { index: 2 })
   });
 
   modelClass.defineProjection('КардридерE', 'i-i-s-mega-test-кардр', {
-    iD: attr('ID', { index: 0 })
+    iD: attr('ID', { index: 0 }),
+    паркомат: belongsTo('i-i-s-mega-test-паркомат', 'Паркомат', {
+
+    }, { index: 1 })
   });
 
   modelClass.defineProjection('КардридерL', 'i-i-s-mega-test-кардр', {

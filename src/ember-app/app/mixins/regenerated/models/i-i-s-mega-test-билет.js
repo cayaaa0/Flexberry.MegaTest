@@ -52,7 +52,15 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('БилетE', 'i-i-s-mega-test-билет', {
-    
+    вреПеч: attr('Время печати', { index: 0 }),
+    вреОконч: attr('Окончание', { index: 1 }),
+    ном: attr('Номер', { index: 2 }),
+    водитель: belongsTo('i-i-s-mega-test-водитель', 'Водитель', {
+
+    }, { index: 3 }),
+    паркомат: belongsTo('i-i-s-mega-test-паркомат', 'Паркомат', {
+
+    }, { index: 4 })
   });
 
   modelClass.defineProjection('БилетL', 'i-i-s-mega-test-билет', {

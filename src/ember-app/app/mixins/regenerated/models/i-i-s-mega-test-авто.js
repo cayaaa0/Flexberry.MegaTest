@@ -37,7 +37,7 @@ export let defineProjections = function (modelClass) {
     номер: attr('Номер', { index: 0 }),
     водитель: belongsTo('i-i-s-mega-test-водитель', 'Тел', {
       тел: attr('Тел', { index: 1 })
-    }, { index: -1, hidden: true })
+    }, { index: 2 })
   });
 
   modelClass.defineProjection('АвтомобильE', 'i-i-s-mega-test-авто', {

@@ -24,5 +24,68 @@
       {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
     </div>
   </div>
-
+  <div class="field">
+    <label>{{t "forms.i-i-s-mega-test-билет-e.вреПеч-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.вреПеч
+      class=(if (v-get validationModel "вреПеч" "isInvalid") "error")
+      data-test-i-i-s-mega-test-билет-e-вреПеч=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "вреПеч" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-mega-test-билет-e.вреОконч-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.вреОконч
+      class=(if (v-get validationModel "вреОконч" "isInvalid") "error")
+      data-test-i-i-s-mega-test-билет-e-вреОконч=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "вреОконч" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.ном
+      class=(if (v-get validationModel "ном" "isInvalid") "error")
+      label=(t "forms.i-i-s-mega-test-билет-e.ном-caption")
+      data-test-i-i-s-mega-test-билет-e-ном=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "ном" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-mega-test-билет-e.водитель-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.водитель
+      relationName="водитель"
+      projection="ВодительL"
+      title=(t "forms.i-i-s-mega-test-билет-e.водитель-caption")
+      readonly=readonly
+      componentName="водительLookup"
+      class=(if (v-get validationModel "водитель" "isInvalid") "error")
+      data-test-i-i-s-mega-test-билет-e-водитель=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "водитель" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-mega-test-билет-e.паркомат-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.паркомат
+      relationName="паркомат"
+      projection="ПаркоматL"
+      title=(t "forms.i-i-s-mega-test-билет-e.паркомат-caption")
+      readonly=readonly
+      componentName="паркоматLookup"
+      class=(if (v-get validationModel "паркомат" "isInvalid") "error")
+      data-test-i-i-s-mega-test-билет-e-паркомат=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "паркомат" "message")}}
+  </div>
 </form>
